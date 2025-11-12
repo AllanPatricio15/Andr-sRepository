@@ -1,0 +1,111 @@
+body {
+  font-family: Segoe UI, Arial, sans-serif;
+  margin: 20px;
+  background: #fffaf2;
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #2e7d32;
+  margin: 0 0 12px;
+}
+
+nav {
+  margin-bottom: 16px;
+}
+
+nav a {
+  display: inline-block;
+  padding: 8px 14px;
+  margin-right: 8px;
+  background: #2e7d32;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background .15s ease;
+}
+
+nav a:hover { background: #1b5e20; }
+nav a:active { background: #124a16; }
+
+hr {
+  border: 0;
+  border-top: 2px solid #e5decf;
+  margin: 16px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: #f15a29;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  transition: background .15s ease;
+}
+.btn:hover { background: #d94d21; }
+.btn:active { background: #b83f1b; }
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  border: 1px solid #efe6d7;
+}
+
+.tabla thead tr {
+  background: #2e7d32;
+  color: #fff;
+}
+
+.encabezado-tabla {
+  text-align: center;
+  padding: 10px;
+  font-weight: 600;
+  border-bottom: 1px solid #efe6d7;
+}
+
+.fila-nombre,
+.fila,
+.pie-tabla,
+.valores-pie {
+  padding: 10px;
+  border-bottom: 1px solid #f3ede1;
+}
+
+.fila-nombre {
+  text-align: left;
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+.fila {
+  text-align: right;
+  color: #5d5d5d;
+}
+
+.tabla tbody tr:hover {
+  background: #faf5ea;
+}
+
+.pie-tabla {
+  font-weight: 700;
+  text-align: right;
+  background: #fff6e8;
+}
+
+.valores-pie {
+  font-weight: 800;
+  text-align: right;
+  font-size: 1.1rem;
+  color: #2e7d32;
+}
+
+.tabla tfoot .pie-tabla,
+.tabla tfoot .valores-pie {
+  border-top: 2px solid #efe6d7;
+  border-bottom: 0;
+}
